@@ -78,14 +78,11 @@ namespace DATASTRUCTURE.LINKEDLIST
         public void ReadAll()
         {
             Node current = first;
-            while(current.next != null) {
-               var result = current.value;
-                Console.WriteLine(result);
-                current = current.next;
-                //Console.WriteLine(result);
-                              
+            while(current != null) {
+              Console.Write(current.value + " ");
+               current = current.next;                             
             }
-            
+            Console.WriteLine();
         }
         private Node getPrevious(Node node)
         {

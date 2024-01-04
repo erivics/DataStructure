@@ -27,11 +27,12 @@ public class Program
         // Console.WriteLine(list.Contains("kola"));
 
         var simpleLinkedList = new SimpleLinkedList();
+        simpleLinkedList.AddLast(40);
         simpleLinkedList.AddLast(35);
         simpleLinkedList.AddLast(15);
         simpleLinkedList.AddLast(30);
         simpleLinkedList.AddFirst(10);
-        simpleLinkedList.AddLast(40);
+        
         //simpleLinkedList.removeLast();
         simpleLinkedList.ReadAll();
         //Console.WriteLine(simpleLinkedList.IndexOf(35));
