@@ -8,6 +8,7 @@ namespace DATASTRUCTURE.LINKEDLIST
         public Node(int value)
         {
             this.value = value;
+            next = null;
         }
     }
     
